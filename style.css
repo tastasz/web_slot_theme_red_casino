@@ -14,7 +14,7 @@ body {
 
 :root {
     --padding-top: 88px;
-    --nav-hover-color: 1px solid #D82B35;
+    --nav-hover-color: 1px solid #fff;
     --btn-expland-color: #D82B35;
     --blue-text-shadow-379AFC: 3px 2px 6px #FF7D31 !important;
     --blue-btn-bg: transparent linear-gradient(180deg, #FF7D31 0%, #FF7D31 100%) 0% 0% no-repeat padding-box;
@@ -122,6 +122,14 @@ body {
     align-items: center;
 }
 
+.bg-header-2 {
+    background-image: url("./static/bg-head-2.png");
+    min-height: 10vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 .sub-menu .sub-menu-col {
     background: #D82B35;
